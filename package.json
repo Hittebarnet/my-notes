@@ -1,14 +1,24 @@
 {
   "name": "my-notes",
-  "dependencies": {
-  },
+  "version": "0.1.0",
   "devDependencies": {
-    "grunt": "~0.4.2",
+    "react-scripts": "0.8.5",
+	"grunt": "~0.4.2",
     "grunt-contrib-jshint": "~0.6.3",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-uglify": "~0.2.2",
     "grunt-contrib-concat": "^0.4.0",
     "grunt-contrib-watch": "*",
     "grunt-contrib-qunit": "0.5.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
