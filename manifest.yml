@@ -3,8 +3,8 @@ applications:
   memory: 256M
   instances: 1
   domain: eu-gb.mybluemix.net
-  name: my-notes
-  host: my-notes
+  name: rasmusnotes
+  host: rasmusnotes
   disk_quota: 1024M
   services:
   - whatupson-cloudantNoSQLDB
